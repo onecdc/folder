@@ -1,0 +1,30 @@
+
+work flow
+
+git init
+git config user.name "someone"
+git config user.email "someone@someplace.com"
+git add *
+git commit -m "some init msg"
+
+----------------------------------------------------------
+
+In a folder
+
+Create git local repository and track changes to it
+- git init
+
+To see whats currently inside the staging area
+- git status
+
+To add it in the staging area and track changes to it
+- git add filename.fileextension
+
+To version control with commit message
+- git commit -m "Initial commit"
+
+To add all file inside a folder
+- git add .
+
+To revert back from the previous version (last version it was commited)
+- git checkout filename.fileextension
